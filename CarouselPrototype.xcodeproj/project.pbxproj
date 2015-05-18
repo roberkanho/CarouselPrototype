@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0333AB151B080C800016D0C4 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0333AB141B080C800016D0C4 /* IntroViewController.swift */; };
+		0333AB1B1B0872240016D0C4 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0333AB1A1B0872240016D0C4 /* SignInViewController.swift */; };
+		0346E78C1B099360003D89D2 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0346E78B1B099360003D89D2 /* WelcomeViewController.swift */; };
+		0346E78E1B09A67C003D89D2 /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0346E78D1B09A67C003D89D2 /* TimelineViewController.swift */; };
+		0346E7901B09AA8C003D89D2 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0346E78F1B09AA8C003D89D2 /* SettingsViewController.swift */; };
+		0346E7921B09AB2A003D89D2 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0346E7911B09AB2A003D89D2 /* ConversationsViewController.swift */; };
+		0346E7941B09B996003D89D2 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0346E7931B09B996003D89D2 /* CreateAccountViewController.swift */; };
+		0346E7961B09BB35003D89D2 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0346E7951B09BB35003D89D2 /* TermsViewController.swift */; };
 		03C7E3961B02E4080051F838 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C7E3951B02E4080051F838 /* AppDelegate.swift */; };
 		03C7E3981B02E4080051F838 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C7E3971B02E4080051F838 /* ViewController.swift */; };
 		03C7E39B1B02E4080051F838 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C7E3991B02E4080051F838 /* Main.storyboard */; };
@@ -26,6 +34,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0333AB141B080C800016D0C4 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		0333AB1A1B0872240016D0C4 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignInViewController.swift; path = CarouselPrototype/SignInViewController.swift; sourceTree = "<group>"; };
+		0346E78B1B099360003D89D2 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		0346E78D1B09A67C003D89D2 /* TimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
+		0346E78F1B09AA8C003D89D2 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		0346E7911B09AB2A003D89D2 /* ConversationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
+		0346E7931B09B996003D89D2 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		0346E7951B09BB35003D89D2 /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
 		03C7E3901B02E4080051F838 /* CarouselPrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarouselPrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03C7E3941B02E4080051F838 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03C7E3951B02E4080051F838 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +75,11 @@
 		03C7E3871B02E4080051F838 = {
 			isa = PBXGroup;
 			children = (
+				0346E78D1B09A67C003D89D2 /* TimelineViewController.swift */,
+				0346E78F1B09AA8C003D89D2 /* SettingsViewController.swift */,
+				0346E7911B09AB2A003D89D2 /* ConversationsViewController.swift */,
+				0346E78B1B099360003D89D2 /* WelcomeViewController.swift */,
+				0333AB1A1B0872240016D0C4 /* SignInViewController.swift */,
 				03C7E3921B02E4080051F838 /* CarouselPrototype */,
 				03C7E3A81B02E4080051F838 /* CarouselPrototypeTests */,
 				03C7E3911B02E4080051F838 /* Products */,
@@ -80,6 +101,9 @@
 				03C7E3951B02E4080051F838 /* AppDelegate.swift */,
 				03C7E3971B02E4080051F838 /* ViewController.swift */,
 				03C7E3991B02E4080051F838 /* Main.storyboard */,
+				0346E7931B09B996003D89D2 /* CreateAccountViewController.swift */,
+				0346E7951B09BB35003D89D2 /* TermsViewController.swift */,
+				0333AB141B080C800016D0C4 /* IntroViewController.swift */,
 				03C7E39C1B02E4080051F838 /* Images.xcassets */,
 				03C7E39E1B02E4080051F838 /* LaunchScreen.xib */,
 				03C7E3931B02E4080051F838 /* Supporting Files */,
@@ -212,8 +236,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0333AB1B1B0872240016D0C4 /* SignInViewController.swift in Sources */,
+				0346E78C1B099360003D89D2 /* WelcomeViewController.swift in Sources */,
+				0346E7901B09AA8C003D89D2 /* SettingsViewController.swift in Sources */,
+				0346E7921B09AB2A003D89D2 /* ConversationsViewController.swift in Sources */,
+				0346E7961B09BB35003D89D2 /* TermsViewController.swift in Sources */,
+				0333AB151B080C800016D0C4 /* IntroViewController.swift in Sources */,
 				03C7E3981B02E4080051F838 /* ViewController.swift in Sources */,
+				0346E7941B09B996003D89D2 /* CreateAccountViewController.swift in Sources */,
 				03C7E3961B02E4080051F838 /* AppDelegate.swift in Sources */,
+				0346E78E1B09A67C003D89D2 /* TimelineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +443,7 @@
 				03C7E3B11B02E4080051F838 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03C7E3B21B02E4080051F838 /* Build configuration list for PBXNativeTarget "CarouselPrototypeTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +452,7 @@
 				03C7E3B41B02E4080051F838 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
